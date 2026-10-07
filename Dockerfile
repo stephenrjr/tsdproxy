@@ -9,7 +9,7 @@ COPY web/ ./
 COPY internal/ /app/internal/
 RUN bun run build
 
-FROM --platform=$BUILDPLATFORM golang:1.26 AS builder
+FROM --platform=$BUILDPLATFORM golang:1.27 AS builder
 
 ARG TARGETOS
 ARG TARGETARCH
