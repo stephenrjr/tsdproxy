@@ -3,7 +3,7 @@ module github.com/almeidapaulopt/tsdproxy
 go 1.27.1
 
 require (
-	github.com/a-h/templ v0.3.1020
+	github.com/a-h/templ v0.3.1070
 	github.com/caddyserver/certmagic v0.25.4
 	github.com/creasty/defaults v1.11.0
 	github.com/fsnotify/fsnotify v1.10.1
@@ -31,7 +31,7 @@ require (
 	golang.org/x/time v0.16.0
 	gopkg.in/yaml.v3 v3.0.1
 	tailscale.com v1.104.1
-	tailscale.com/client/tailscale/v2 v2.11.0
+	tailscale.com/client/tailscale/v2 v2.12.0
 )
 
 require (
