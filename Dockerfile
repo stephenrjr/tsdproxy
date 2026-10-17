@@ -33,7 +33,7 @@ RUN go install github.com/a-h/templ/cmd/templ@latest && templ generate
 # GOARM derived from TARGETVARIANT: v6→6, v7→7; empty for non-arm arches
 RUN GOARM=${TARGETVARIANT#v} go build \
       -ldflags "-s -w \
-        -X github.com/almeidapaulopt/tsdproxy/internal/core.version=${VERSION} \
+        -X github.com/stephenrjr/tsdproxy/internal/core.version=${VERSION} \
         -X tailscale.com/version.Short=${TAILSCALE_VERSION} \
         -X tailscale.com/version.Long=${TAILSCALE_VERSION}-TSDProxy \
         -X tailscale.com/version.GitCommit=${GIT_COMMIT} \
