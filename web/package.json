@@ -14,7 +14,7 @@
     "daisyui": "^5.7.50",
     "tailwindcss": "^4.3.3",
     "vite": "^8.3.5",
-    "vite-plugin-compression2": "^2.5.3",
+    "vite-plugin-compression2": "^2.5.4",
     "vite-plugin-pwa": "^1.3.0"
   },
   "dependencies": {
