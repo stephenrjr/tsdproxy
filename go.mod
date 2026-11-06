@@ -30,7 +30,7 @@ require (
 	golang.org/x/text v0.43.0
 	golang.org/x/time v0.16.0
 	gopkg.in/yaml.v3 v3.0.1
-	tailscale.com v1.104.4
+	tailscale.com v1.104.5
 	tailscale.com/client/tailscale/v2 v2.12.0
 )
 
